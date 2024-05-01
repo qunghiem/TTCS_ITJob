@@ -40,27 +40,27 @@ function Header({ search = false }) {
   const userLinks = [
     {
       icon: <FontAwesomeIcon icon={faUser} />,
-      title: 'My Account',
+      title: 'Tài khoản của tôi',
       to: config.routes.profile,
     },
     {
       icon: <FontAwesomeIcon icon={faRobot} />,
-      title: 'My Jobs Robot',
+      title: 'Robot Công việc của tôi',
       to: config.routes.myJobRobot,
     },
     {
       icon: <FontAwesomeIcon icon={faHeart} />,
-      title: 'Saved Jobs',
+      title: 'Việc làm đã lưu',
       to: config.routes.savedJobs,
     },
     {
       icon: <FontAwesomeIcon icon={faCheckToSlot} />,
-      title: 'Applied Jobs',
+      title: 'Việc làm ứng tuyển',
       to: config.routes.appliedJobs,
     },
     {
       icon: <FontAwesomeIcon icon={faArrowRightFromBracket} />,
-      title: 'Sign Out',
+      title: 'Đăng xuất',
       onClick: () => {
         dispatch(usersSlice.actions.signOut());
         navigate(config.routes.home);
@@ -89,7 +89,7 @@ function Header({ search = false }) {
       <div className={cx('container')}>
         <div className={cx('logo', { shrink: headerShrink })}>
           <Link to={config.routes.home}>
-            <img src={images.logo} alt="logo_img" />
+            <img src={"https://w1.pngwing.com/pngs/691/417/png-transparent-marketing-internship-program-job-training-recruitment-ajira-job-description-employment-agency.png"} alt="logo_img" />
           </Link>
         </div>
 
