@@ -1,0 +1,73 @@
+@import 'normalize.css';
+
+:root {
+  // colors
+  --primary: #ea1e30;
+  --special: #fff1e1;
+  --hot: #ff9e34;
+  --new: #009aee;
+  --blue: #4288f5;
+  --green: #68ba50;
+  --dark: #221f20;
+  --light-dark: #2e2a2b;
+  --black: black;
+  --white: white;
+  --dark-grey: #57595b;
+  --medium-grey: #727272;
+  --grey: #929497;
+  --light-grey: #d2d3d3;
+  --lighter-grey: #e9e9e9;
+  --text-overlay-header: rgba(255, 255, 255, 0.55);
+  --text-overlay-footer: rgba(255, 255, 255, 0.72);
+
+  // fonts
+  --font-family: 'Roboto Condensed', sans-serif;
+
+  // layouts
+  --default-width: 1350px;
+  --default-width-small: 1024px;
+  --header-height: 60px;
+  --header-height-onsroll-down: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--dark);
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  font-family: var(--font-family);
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+// responsive
+
+@media screen and (max-width: 992px) {
+  :root {
+    --default-width: 100%;
+    --default-width-small: 100%;
+  }
+}
