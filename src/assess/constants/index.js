@@ -1,11 +1,11 @@
 import config from '~/config';
 
 // header
-const CITIES = ['All Cities', 'Ho Chi Minh', 'Ha Noi', 'Da Nang', 'Others'];
+const CITIES = ['All Cities', 'Ho Chi Minh', 'Ha Noi', 'Da Nang','Others'];
 
 const JOBS = [
   {
-    title: 'Jobs by Skill',
+    title: 'Việc làm theo kỹ năng',
     searchBy: 'skills',
     data: [
       'Java',
@@ -44,7 +44,7 @@ const JOBS = [
     viewAll: 'skill',
   },
   {
-    title: 'Job by Title',
+    title: 'Việc làm theo chức danh',
     searchBy: 'title',
     data: [
       'Java Developer',
@@ -75,7 +75,7 @@ const JOBS = [
     viewAll: 'title',
   },
   {
-    title: 'Jobs by Company',
+    title: 'Việc làm theo công ty',
     searchBy: 'company',
     data: [
       'Hanwha Financial Technology',
@@ -98,7 +98,7 @@ const JOBS = [
     viewAll: 'company',
   },
   {
-    title: 'Jobs by City',
+    title: 'Việc làm theo thành phố',
     searchBy: 'location',
     data: CITIES,
   },
