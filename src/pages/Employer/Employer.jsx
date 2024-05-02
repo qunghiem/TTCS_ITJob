@@ -7,8 +7,8 @@ const cx = classNames.bind(styles);
 function Employer() {
   return (
     <div className={cx('wrapper')}>
-      <h1>Employer Page</h1>
-      <p>Not yet developed...</p>
+      <h1>Trang nhà tuyển dụng</h1>
+      <p>Đang được phát triển...</p>
     </div>
   );
 }

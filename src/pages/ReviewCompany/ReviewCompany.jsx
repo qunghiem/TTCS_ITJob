@@ -7,8 +7,8 @@ const cx = classNames.bind(styles);
 function ReviewCompany() {
   return (
     <div className={cx('wrapper')}>
-      <h1>Review Companies Page</h1>
-      <p>Not yet developed...</p>
+      <h1>Trang Review Công ty</h1>
+      <p>Chưa được phát triển...</p>
     </div>
   );
 }
