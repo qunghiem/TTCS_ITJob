@@ -29,27 +29,27 @@ function MobileHeader() {
   const userLinks = [
     {
       leftIcon: <FontAwesomeIcon icon={faUser} />,
-      title: 'My Account',
+      title: 'Tài khoản của tôi',
       to: config.routes.profile,
     },
     {
       leftIcon: <FontAwesomeIcon icon={faRobot} />,
-      title: 'My Jobs Robot',
+      title: 'Robot công việc của tôi',
       to: config.routes.myJobRobot,
     },
     {
       leftIcon: <FontAwesomeIcon icon={faHeart} />,
-      title: 'Saved Jobs',
+      title: 'Việc làm đã lưu',
       to: config.routes.savedJobs,
     },
     {
       leftIcon: <FontAwesomeIcon icon={faCheckToSlot} />,
-      title: 'Applied Jobs',
+      title: 'Việc làm đã ứng tuyển',
       to: config.routes.appliedJobs,
     },
     {
       leftIcon: <FontAwesomeIcon icon={faArrowRightFromBracket} />,
-      title: 'Sign Out',
+      title: 'Đăng xuất',
       onClick: async () => {
         dispatch(usersSlice.actions.signOut());
         await navigate(config.routes.home);

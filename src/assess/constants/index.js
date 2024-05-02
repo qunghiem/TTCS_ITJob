@@ -1,7 +1,7 @@
 import config from '~/config';
 
 // header
-const CITIES = ['All Cities', 'Ho Chi Minh', 'Ha Noi', 'Da Nang','Others'];
+const CITIES = ['Tất cả thành phố', 'Ho Chi Minh', 'Ha Noi', 'Da Nang','Others'];
 
 const JOBS = [
   {
@@ -106,23 +106,23 @@ const JOBS = [
 
 const IT_COMPANIES = [
   {
-    title: 'Vietnam Best IT Companies',
+    title: 'Công ty IT tốt nhất',
     to: config.routes.bestCompanies,
-    data: ['Best IT Companies 2022', 'Best IT Companies 2021', 'Best IT Companies 2020', 'Best IT Companies 2019'],
+    data: ['Công ty IT tốt nhất 2022', 'Công ty IT tốt nhất 2021', 'Công ty IT tốt nhất 2020', 'Công ty IT tốt nhất 2019'],
   },
-  { title: 'Company Reviews', to: config.routes.reviewCompany },
+  { title: 'Review Công ty', to: config.routes.reviewCompany },
 ];
 
 const HEADER_MOBILE_MENU = [
-  { title: 'All Jobs', to: config.routes.jobs },
+  { title: 'Tất cả việc làm', to: config.routes.jobs },
   ...JOBS,
   {
-    title: 'Vietnam Best IT Companies',
+    title: 'Công ty IT tốt nhất',
     data: [
-      { title: 'Best IT Companies 2022', to: config.routes.bestCompanies },
-      { title: 'Best IT Companies 2021', to: config.routes.bestCompanies },
-      { title: 'Best IT Companies 2020', to: config.routes.bestCompanies },
-      { title: 'Best IT Companies 2019', to: config.routes.bestCompanies },
+      { title: 'Công ty IT tốt nhất 2022', to: config.routes.bestCompanies },
+      { title: 'Công ty IT tốt nhất 2021', to: config.routes.bestCompanies },
+      { title: 'Công ty IT tốt nhất 2020', to: config.routes.bestCompanies },
+      { title: 'Công ty IT tốt nhất 2019', to: config.routes.bestCompanies },
     ],
   },
   { title: 'Company Reviews', to: config.routes.reviewCompany },

@@ -33,8 +33,8 @@ function Header({ search = false }) {
   const navigate = useNavigate();
 
   const actionLinks = [
-    { title: 'For Employers', to: config.routes.employer },
-    { title: 'Sign in', to: config.routes.signIn },
+    { title: 'Nhà tuyển dụng', to: config.routes.employer },
+    { title: 'Đăng nhập', to: config.routes.signIn },
   ];
 
   const userLinks = [
@@ -89,7 +89,7 @@ function Header({ search = false }) {
       <div className={cx('container')}>
         <div className={cx('logo', { shrink: headerShrink })}>
           <Link to={config.routes.home}>
-            <img src={"https://w1.pngwing.com/pngs/691/417/png-transparent-marketing-internship-program-job-training-recruitment-ajira-job-description-employment-agency.png"} alt="logo_img" />
+            <img src={images.logo} alt="logo_img" />
           </Link>
         </div>
 
@@ -105,14 +105,14 @@ function Header({ search = false }) {
                 }}
               >
                 <NavItem to={config.routes.jobs} multilevel>
-                  All Jobs
+                  Việc làm IT
                 </NavItem>
               </div>
             </Menu>
 
             {/* IT Companies  */}
             <Menu items={IT_COMPANIES}>
-              <NavItem multilevel>IT Companies</NavItem>
+              <NavItem multilevel>Công ty IT</NavItem>
             </Menu>
 
             {/* Blog  */}
@@ -151,9 +151,9 @@ function Header({ search = false }) {
             )}
 
             <div className={cx('language')}>
-              <button className={cx('active')}>EN</button>
+              <button className={cx('active')}>VI</button>
               <span className={cx('slash')}></span>
-              <button onClick={() => alert('Sorry! This function has not been developed yet.')}>VI</button>
+              <button onClick={() => alert('Xin lỗi! Chức năng này chưa được phát triển.')}>EN</button>
             </div>
           </div>
         </div>
