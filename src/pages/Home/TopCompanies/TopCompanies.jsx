@@ -34,7 +34,7 @@ function TopCompanies() {
 
   return (
     <div className={cx('wrapper')}>
-      <h1 className={cx('title')}>Top Employers</h1>
+      <h1 className={cx('title')}>Nhà tuyển dụng hàng đầu</h1>
       <div className={cx('content')}>
         {top8.map((company) => (
           <TopCompany key={company.id} data={company} />

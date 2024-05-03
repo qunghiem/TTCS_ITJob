@@ -31,17 +31,17 @@ function SavedJobs() {
         <div className={cx('container')}>
           {currentUser.savedJobs?.length > 0 ? (
             <div className={cx('content')}>
-              <h1 className={cx('title')}>You have {currentUser.savedJobs.length} Saved Jobs</h1>
+              <h1 className={cx('title')}>Bạn có {currentUser.savedJobs.length} Việc làm đã lưu</h1>
               {currentUser.savedJobs.map((jobID, index) => (
                 <JobItem key={index} data={jobList.find((job) => job.id === jobID)} />
               ))}
             </div>
           ) : (
             <>
-              <h1 className={cx('title')}>You have 0 Saved Jobs</h1>
-              <h3 className={cx('subtitle')}>Trời ơi! You haven't saved any jobs yet.</h3>
+              <h1 className={cx('title')}>Bạn có 0 việc làm đã lưu</h1>
+              <h3 className={cx('subtitle')}>Trời ơi! Bạn chưa lưu việc làm nào.</h3>
               <Image src={images.none_jobs_saved} alt="apply-now_img" className={cx('saved-jobs_img')} />
-              <h3 className={cx('subtitle')}>Click the heart to save jobs.</h3>
+              <h3 className={cx('subtitle')}>Bấm vào trái tim để lưu việc làm.</h3>
             </>
           )}
         </div>

@@ -390,7 +390,7 @@ export const companyList = [
       ],
     },
     benefit: {
-      title: 'Remuneration Package',
+      title: 'Phúc lợi',
       hightlight: [
         'State-of-the-art algorithm & knowledge of exchange',
         'Dynamic and professional working environment',

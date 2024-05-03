@@ -15,10 +15,10 @@ function Footer() {
       <div className={cx('container')}>
         <div className={cx('links')}>
           <div className={cx('links-about')}>
-            <h4 className={cx('title')}>About Us</h4>
+            <h4 className={cx('title')}>Về ITJob</h4>
             <div className={cx('items')}>
               <Link className={cx('item')} to={config.routes.home}>
-                Home
+                Trang chủ
               </Link>
               <div
                 onClick={() => {
@@ -27,7 +27,7 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'about-us')}>
-                  About Us
+                  Về ITJob.com
                 </Link>
               </div>
               <div
@@ -37,11 +37,11 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'contact-us')}>
-                  Contact Us
+                  Liên hệ
                 </Link>
               </div>
               <Link className={cx('item')} to={config.routes.jobs}>
-                All Jobs
+                Tất cả việc làm
               </Link>
               <div
                 onClick={() => {
@@ -50,14 +50,14 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'faq')}>
-                  FAQ
+                Câu hỏi thường gặp
                 </Link>
               </div>
             </div>
           </div>
 
           <div className={cx('links-terms')}>
-            <h4 className={cx('title')}>Terms & Conditions</h4>
+            <h4 className={cx('title')}>Điều khoản chung</h4>
             <div className={cx('items')}>
               <div
                 onClick={() => {
@@ -66,7 +66,7 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'privacy-policy')}>
-                  Privacy Policy
+                Chính sách bảo mật
                 </Link>
               </div>
               <div
@@ -76,7 +76,7 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'operating-regulation')}>
-                  Operating Regulation
+                Quy chế hoạt động
                 </Link>
               </div>
               <div
@@ -86,10 +86,10 @@ function Footer() {
                 }}
               >
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'complaint-handling')}>
-                  Complaint Handling
+                Xử lý khiếu nại
                 </Link>
               </div>
-              <div
+              {/* <div
                 onClick={() => {
                   window.location.pathname === config.routes.pending.replace(':pathname', 'term-and-conditions') &&
                     window.location.reload(false);
@@ -98,8 +98,8 @@ function Footer() {
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'term-and-conditions')}>
                   Terms & Conditions
                 </Link>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 onClick={() => {
                   window.location.pathname === config.routes.pending.replace(':pathname', 'press') &&
                     window.location.reload(false);
@@ -108,13 +108,12 @@ function Footer() {
                 <Link className={cx('item')} to={config.routes.pending.replace(':pathname', 'press')}>
                   Press
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
 
           <div className={cx('links-copy-right')}>
-            <span className={cx('item')}>Copyright © IT VIEC JSC</span>
-            <span className={cx('item')}>Tax code: 0312192258</span>
+            <span className={cx('item')}>Tax code: 0123456789</span>
             <div className={cx('icons')}>
               <a href="https://www.facebook.com/">
                 <i>
@@ -136,9 +135,9 @@ function Footer() {
         </div>
 
         <div className={cx('info')}>
-          <h4 className={cx('title')}>Want to post a job? Contact us at:</h4>
+          <h4 className={cx('title')}>Liên hệ để đăng tin tuyển dụng tại:</h4>
           <span className={cx('item')}>
-            Ho Chi Minh: (+84) 977 460 519 - Ha Noi: (+84) 983 131 351 - Email: love@itviec.com
+            Ho Chi Minh: (+84) 123 456 789 - Ha Noi: (+84) 123 456 789 - Email: nxq@gmail.com
           </span>
         </div>
       </div>

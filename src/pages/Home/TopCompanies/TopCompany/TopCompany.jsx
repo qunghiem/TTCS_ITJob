@@ -34,7 +34,7 @@ function TopCompany({ data }) {
         {numberOfJobOpening > 0 && (
           <>
             <span className={cx('job-number')}>
-              <span>{numberOfJobOpening > 1 ? `${numberOfJobOpening} Jobs` : `${numberOfJobOpening} Job`}</span>
+              <span>{numberOfJobOpening > 1 ? `${numberOfJobOpening} Việc làm` : `${numberOfJobOpening} Job`}</span>
               <span>-</span>
             </span>
 

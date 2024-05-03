@@ -9,7 +9,7 @@ import Rate from '~/components/Rate';
 const cx = classNames.bind(styles);
 
 function Review({ currentCompany = {} }) {
-  const handleDelay = useCallback(() => alert('Sorry! This function has not been developed.'), []);
+  const handleDelay = useCallback(() => alert('Xin lỗi! Chức năng này chưa được phát triển.'), []);
 
   return (
     <>

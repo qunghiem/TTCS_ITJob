@@ -24,11 +24,11 @@ function BlogEntries() {
   return (
     <div className={cx('wrapper')}>
       <div className={cx('header')}>
-        <h1 className={cx('title')}>Newest blog entries</h1>
+        <h1 className={cx('title')}>Blog mới nhất</h1>
 
         <Link className={cx('view-all')} to={config.routes.blog}>
           <>
-            <span>View all</span>
+            <span>Xem tất cả</span>
             <span>
               <FontAwesomeIcon icon={faCaretRight} />
             </span>
@@ -52,7 +52,7 @@ function BlogEntries() {
               </div>
 
               <Link to={config.routes.blog} className={cx('read-more')}>
-                <span>Read more</span>
+                <span>Đọc thêm</span>
                 <span>
                   <FontAwesomeIcon icon={faCaretRight} />
                 </span>

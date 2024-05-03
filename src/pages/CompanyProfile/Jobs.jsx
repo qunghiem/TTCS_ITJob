@@ -33,7 +33,7 @@ function Jobs({ currentCompany = {}, setType }) {
     navigate(config.routes.jobs);
   }, []);
 
-  const handleDelay = useCallback(() => alert('Sorry! This function has not been developed.'), []);
+  const handleDelay = useCallback(() => alert('Xin lỗi! Chức năng này chưa được phát triển.'), []);
 
   const handleSetType = useCallback(() => setType('review'), []);
 
