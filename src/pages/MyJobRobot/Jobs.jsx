@@ -109,7 +109,7 @@ function Jobs() {
           </i>
           <input
             type="text"
-            placeholder="Nhập từ khóa theo kỹ năng, chức v"
+            placeholder="Nhập từ khóa theo kỹ năng, chức vụ"
             value={keyWord}
             onChange={(e) => setKeyWord(e.target.value)}
           />

@@ -121,11 +121,11 @@ function SignUp() {
         </div>
 
         <Modal
-          title={isSuccess ? "Cool, you're almost done!" : 'Email account already existed!'}
+          title={isSuccess ? "Tuyệt, bạn gần như đã hoàn tất!" : 'Tài khoản email đã tồn tại!'}
           message={
-            isSuccess ? "Let's sign in to search and get your dream job." : 'Please use another email to sign up.'
+            isSuccess ? "Hãy đăng nhập để tìm kiếm và nhận được công việc mơ ước của bạn." : 'Vui lòng sử dụng email khác để đăng ký.'
           }
-          btn={isSuccess ? 'Sign in' : 'Sign up again'}
+          btn={isSuccess ? 'Đăng nhập' : 'Đăng ký lại'}
           action={() => {
             isSuccess ? navigate(config.routes.signIn) : setActiveOverlay(false);
           }}

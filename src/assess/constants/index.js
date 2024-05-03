@@ -131,9 +131,9 @@ const HEADER_MOBILE_MENU = [
 
 // filtered jobs
 const FILTER_TITLES = {
-  level: 'Job Level',
-  salary: 'Salary Range',
-  companyType: 'Company Type',
+  level: 'Cấp bậc',
+  salary: 'Mức lương',
+  companyType: 'Loại công ty',
 };
 
 const FILTERS = [

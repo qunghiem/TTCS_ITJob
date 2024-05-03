@@ -14,7 +14,7 @@ const cx = classNames.bind(styles);
 function HeadSearch() {
   const dispatch = useDispatch();
   const { jobList, currentUser } = useReduxSelector();
-  const [location, setLocation] = useState('All Cities');
+  const [location, setLocation] = useState('Tất cả thành phố');
   const [skills, setSkills] = useState([]);
   const navigate = useNavigate();
 

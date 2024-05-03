@@ -100,7 +100,7 @@ function SignIn() {
       <div className={cx('container')}>
         <div className={cx('user-authentication')}>
           <h3 className={cx('header')}>
-            <span>Welcome to</span>
+            <span>Chào mừng bạn đến với</span>
             <Image src={images.logo_dark} alt="logo_img" />
           </h3>
 
@@ -119,7 +119,7 @@ function SignIn() {
                 <span className={cx('separator-line')}></span>
               </div>
 
-              <Form items={inputItems} handleSubmit={(data) => handleSignIn(data)} submitBtn="Sign in with Email" />
+              <Form items={inputItems} handleSubmit={(data) => handleSignIn(data)} submitBtn="Đăng nhập bằng Email" />
 
               <div className={cx('sign-up')}>
                 <span>Bạn chưa có tài khoản? </span>
