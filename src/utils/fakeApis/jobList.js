@@ -28,7 +28,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'Understand, clarify and document the requirements from Clients.',
           'Transform raw requirements specified above into software requirement documents.',
@@ -104,7 +104,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'We are looking for Front-End developers with React JS/ Angular JS skilled to develop our Front-end team.',
           'Develop friendly web platform with latest technologies mainly on JavaScript language and frameworks.',
@@ -175,7 +175,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'Understand business requirements & acceptance criteria in order to execute manual tests to verify quality and completeness of features being delivered.',
           'Communicate effectively to developers & project managers regarding quality issues.',
@@ -436,7 +436,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Reading & understanding project specifications, analyzing requirements.',
           'Implementing & testing software components.',
@@ -626,7 +626,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Work with our development team to build back-end of financial exchange platform for dealing with daily transactions and execution.',
           'In charge of developing the logic flow and algorithms to connect the front-end, back-end, and other modules',
@@ -648,7 +648,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Essential Skills ',
+        title: 'Kỹ năng cần thiết ',
         detail: [
           'Any previous experience working exchange platform, crypto trading applications, or wallet/security development will be highly advantageous.',
         ],
@@ -713,7 +713,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Work with development and design team to build the web interfaces to increase engagement and show strong technology impression for customer.',
           'In charge of producing HTML, CSS and JavaScript for customer trading website with front-end web framework such as Angular.',
@@ -734,7 +734,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Essential Skills ',
+        title: 'Kỹ năng cần thiết ',
         detail: [
           'Any previous experience working on mobile/tablet web applications will be highly advantageous. ',
           'Experience working on about Financial Chart is a plus.',
@@ -1268,11 +1268,11 @@ export const jobList = [
     description: [
       {
         detail: [
-          "Alpha Networks is a fully fledged IT solutions and systems integrator in South East Asia. We ventured into systems integrator in 2014, and we're now a fully fledged IT solutions agency. The core of our business lies in bespoke turnkey solutions and system integrations. We specialize in end-to-end IT solutions, and we aspire to become an onestop-shop for all your IT needs. From hardware to software, network design to security, we're here to provide solutions for our clients that are both efficient and value-for-money. We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.",
+          "Alpha Networks is a fully fledged IT solutions and systems integrator in South East Asia. We ventured into systems integrator in 2014, and we're now a fully fledged IT solutions agency. The core of our business lies in bespoke turnkey solutions and system integrations. We specialize in end-to-end IT solutions, and we aspire to become an onestop-shop for all your IT needs. From hardware to software, network design to security, we're here to provide solutions for our clients that are both efficient and value-for-money. We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Trách nhiệm will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.",
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Develop new user-facing features',
           'Build reusable code and libraries for future use',
@@ -1459,7 +1459,7 @@ export const jobList = [
         ],
       },
       {
-        title: ' RESPONSIBILITIES',
+        title: ' Trách nhiệm',
         detail: [
           'Be responsible for translating business requirements and user demand into innovative design solutions, creating valuable, usable, engageable user experience design specifications; ',
           'Take briefs from Product manager/owner and translate creatively into presentations, user flows, user journeys, site maps, screen flows, taxonomies, wireframe specifications and other documentation to communicate with stakeholders and development team for recommendations; ',
@@ -1537,7 +1537,7 @@ export const jobList = [
     ],
     description: [
       {
-        title: ' RESPONSIBILITIES',
+        title: ' Trách nhiệm',
         detail: [
           'Work closely with the Product Team to bring our product vision to life.',
           'Own the entire lifecycle for the components that you build, with these components ranging from features through products.',
@@ -1700,7 +1700,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'Understand, clarify and document the requirements from Clients.',
           'Transform raw requirements specified above into software requirement documents.',
@@ -1775,7 +1775,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'We are looking for Front-End developers with React JS/ Angular JS skilled to develop our Front-end team.',
           'Develop friendly web platform with latest technologies mainly on JavaScript language and frameworks.',
@@ -1841,7 +1841,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities and Duties',
+        title: 'Trách nhiệm and Duties',
         detail: [
           'Understand business requirements & acceptance criteria in order to execute manual tests to verify quality and completeness of features being delivered.',
           'Communicate effectively to developers & project managers regarding quality issues.',
@@ -2107,7 +2107,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Reading & understanding project specifications, analyzing requirements.',
           'Implementing & testing software components.',
@@ -2292,7 +2292,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Work with our development team to build back-end of financial exchange platform for dealing with daily transactions and execution.',
           'In charge of developing the logic flow and algorithms to connect the front-end, back-end, and other modules',
@@ -2314,7 +2314,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Essential Skills ',
+        title: 'Kỹ năng cần thiết ',
         detail: [
           'Any previous experience working exchange platform, crypto trading applications, or wallet/security development will be highly advantageous.',
         ],
@@ -2374,7 +2374,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Work with development and design team to build the web interfaces to increase engagement and show strong technology impression for customer.',
           'In charge of producing HTML, CSS and JavaScript for customer trading website with front-end web framework such as Angular.',
@@ -2395,7 +2395,7 @@ export const jobList = [
         ],
       },
       {
-        title: 'Essential Skills ',
+        title: 'Kỹ năng cần thiết ',
         detail: [
           'Any previous experience working on mobile/tablet web applications will be highly advantageous. ',
           'Experience working on about Financial Chart is a plus.',
@@ -2919,11 +2919,11 @@ export const jobList = [
     description: [
       {
         detail: [
-          "Alpha Networks is a fully fledged IT solutions and systems integrator in South East Asia. We ventured into systems integrator in 2014, and we're now a fully fledged IT solutions agency. The core of our business lies in bespoke turnkey solutions and system integrations. We specialize in end-to-end IT solutions, and we aspire to become an onestop-shop for all your IT needs. From hardware to software, network design to security, we're here to provide solutions for our clients that are both efficient and value-for-money. We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.",
+          "Alpha Networks is a fully fledged IT solutions and systems integrator in South East Asia. We ventured into systems integrator in 2014, and we're now a fully fledged IT solutions agency. The core of our business lies in bespoke turnkey solutions and system integrations. We specialize in end-to-end IT solutions, and we aspire to become an onestop-shop for all your IT needs. From hardware to software, network design to security, we're here to provide solutions for our clients that are both efficient and value-for-money. We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Trách nhiệm will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works.",
         ],
       },
       {
-        title: 'Responsibilities',
+        title: 'Trách nhiệm',
         detail: [
           'Develop new user-facing features',
           'Build reusable code and libraries for future use',
@@ -3115,7 +3115,7 @@ export const jobList = [
         ],
       },
       {
-        title: ' RESPONSIBILITIES',
+        title: ' Trách nhiệm',
         detail: [
           'Be responsible for translating business requirements and user demand into innovative design solutions, creating valuable, usable, engageable user experience design specifications; ',
           'Take briefs from Product manager/owner and translate creatively into presentations, user flows, user journeys, site maps, screen flows, taxonomies, wireframe specifications and other documentation to communicate with stakeholders and development team for recommendations; ',
@@ -3193,7 +3193,7 @@ export const jobList = [
     ],
     description: [
       {
-        title: ' RESPONSIBILITIES',
+        title: ' Trách nhiệm',
         detail: [
           'Work closely with the Product Team to bring our product vision to life.',
           'Own the entire lifecycle for the components that you build, with these components ranging from features through products.',

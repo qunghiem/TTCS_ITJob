@@ -358,7 +358,7 @@ export const companyList = [
     type: 'Sản phẩm',
     workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
-    overtime: 'Extra salary for OT',
+    overtime: 'OT',
     country: 'Japan',
     countryCode: 'JP',
     overview: [
@@ -380,7 +380,7 @@ export const companyList = [
       },
     ],
     skills: {
-      title: 'Exchange Platform Algorithms With AI Technology',
+      title: 'Thuật toán nền tảng trao đổi với công nghệ AI',
       list: ['C++', 'NodeJS', 'Python', 'MySQL', 'React', 'Native', 'Angular'],
       detail: [
         'Learn and practice trending technologies of coding such as NodeJS, AngularJS',
@@ -423,7 +423,7 @@ export const companyList = [
     type: 'Sản phẩm',
     workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
-    overtime: 'Extra salary for OT',
+    overtime: 'OT',
     country: 'Japan',
     countryCode: 'JP',
     overview: [
@@ -658,7 +658,7 @@ export const companyList = [
     type: 'Thuê ngoaì',
     workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
-    overtime: 'Extra salary for OT',
+    overtime: 'OT',
     country: 'Singapore',
     countryCode: 'SG',
     overview: [

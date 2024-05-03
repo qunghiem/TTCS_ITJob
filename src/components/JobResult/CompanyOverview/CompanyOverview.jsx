@@ -57,7 +57,7 @@ function CompanyOverview() {
               outline
               lg
             >
-              View Company Profile
+              Xem hồ sơ công ty
             </Button>
           </div>
         </div>

@@ -52,16 +52,16 @@ function JobList({ jobList: passedJobList }) {
     if (searchTextError && currentJobList.length > 0) {
       title = (
         <>
-          <p className={cx('hightlight-text')}>Oops!</p>
-          <p className={cx('result-text')}>The job you're looking for doesn't exist.</p>
-          <p className={cx('result-text')}>Here are some recommended jobs for you.</p>
+          <p className={cx('hightlight-text')}>Ôi!</p>
+          <p className={cx('result-text')}>Công việc bạn đang tìm kiếm không tồn tại.</p>
+          <p className={cx('result-text')}>Dưới đây là một số công việc được đề xuất cho bạn.</p>
         </>
       );
     } else if (passedJobList.length === 0) {
       title = (
         <>
-          <p className={cx('hightlight-text')}>Oops!</p>
-          <p className={cx('result-text')}>The job you're looking for doesn't exist.</p>
+          <p className={cx('hightlight-text')}>Ôi!</p>
+          <p className={cx('result-text')}>Công việc bạn đang tìm kiếm không tồn tại.</p>
         </>
       );
     } else {

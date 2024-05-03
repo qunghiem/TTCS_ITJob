@@ -3,7 +3,7 @@
   height: calc(100vh - var(--header-height));
   max-height: 1200px;
   padding: 20px 10px 0;
-  overflow: scroll;
+  overflow: auto;
   position: sticky;
   top: var(--header-height);
 }

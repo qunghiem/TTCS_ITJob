@@ -26,7 +26,7 @@ function CompanySpotlight({ className, topCompanyList = [], jobList = [] }) {
   if (topCompany) {
     return (
       <div className={cx('company-spotlight', className)}>
-        <h3 className={cx('company-title')}>Company Spotlight</h3>
+        <h3 className={cx('company-title')}>Tiêu điểm công ty</h3>
         <div className={cx('company-images')}>
           <Link
             to={config.routes.companyProfile.replace(

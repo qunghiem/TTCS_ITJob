@@ -110,7 +110,7 @@ function Job() {
                   outline
                   lg
                 >
-                  View Company Profile
+                  Xem hồ sơ công ty
                 </Button>
               </div>
             </div>
@@ -119,12 +119,12 @@ function Job() {
 
         {/* more jobs */}
         <div className={cx('more-jobs')}>
-          <h3 className={cx('more-jobs_title')}>More Jobs for You</h3>
+          <h3 className={cx('more-jobs_title')}>Thêm việc làm cho bạn</h3>
           <Button className={cx('subscribe-btn')} outline lg onClick={handleDelay}>
             <i>
               <FontAwesomeIcon icon={faBell} />
             </i>
-            Get similar jobs by email
+            Nhận công việc tương tự qua email
           </Button>
 
           <div className={cx('joblist')}>
