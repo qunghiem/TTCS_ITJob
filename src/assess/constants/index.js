@@ -149,7 +149,7 @@ const FILTERS = [
   },
   {
     title: FILTER_TITLES.companyType,
-    data: ['Thuê ngoaì', 'Sản phẩm'],
+    data: ['Thuê ngoàì', 'Sản phẩm'],
   },
 ];
 

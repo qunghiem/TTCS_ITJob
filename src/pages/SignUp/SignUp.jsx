@@ -74,18 +74,18 @@ function SignUp() {
         <div className={cx('container')}>
           <div className={cx('user-authentication')}>
             <h3 className={cx('header')}>
-              <span>Welcome to</span>
+              <span>Chào mừng bạn đến với</span>
               <Image src={images.logo_dark} alt="logo_img" />
             </h3>
 
             <div className={cx('content')}>
               <div className={cx('signup-form')}>
-                <h2 className={cx('form-title')}>Sign Up</h2>
+                <h2 className={cx('form-title')}>Đăng ký</h2>
                 <Button className={cx('form-btn')} primary xl onClick={handleDelay}>
                   <span className={cx('google-logo')}>
                     <Image src={images.google} alt="google-icon" />
                   </span>
-                  <span>Sign up with Google</span>
+                  <span>Đăng ký với Google</span>
                 </Button>
 
                 <div className={cx('separator')}>
@@ -101,15 +101,14 @@ function SignUp() {
                 />
 
                 <div className={cx('sign-in')}>
-                  <span>Already had an account? </span>
-                  <Link to={config.routes.signIn}>Sign in now!</Link>
+                  <span>Bạn đã có tài khoản chưa?</span>
+                  <Link to={config.routes.signIn}>Đăng nhập ngay!</Link>
                 </div>
 
                 <div className={cx('form-note')}>
-                  <span className={cx('note-title')}>Note:</span>
+                  <span className={cx('note-title')}>Ghi chú:</span>
                   <span className={cx('note-text')}>
-                    Password must contain at least 8 characters. Combination of symbols, numbers, uppercase letters,
-                    lowercase letters.
+                  Mật khẩu phải chứa ít nhất 8 ký tự. Tổ hợp các ký hiệu, số, chữ hoa, chữ thường.
                   </span>
                 </div>
               </div>

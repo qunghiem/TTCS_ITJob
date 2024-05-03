@@ -5,7 +5,7 @@ const filtersSlice = createSlice({
   initialState: {
     search: '',
     searchTextError: false,
-    location: 'All Cities',
+    location: 'Tất cả thành phố',
     levelsFilter: [],
     salaryRangesFilter: [],
     companyTypesFilter: [],

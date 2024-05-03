@@ -28,18 +28,18 @@ function FilterJobs() {
       filter.title === FILTER_TITLES.level
         ? levels
         : filter.title === FILTER_TITLES.salary
-        ? salaryRanges
-        : filter.title === FILTER_TITLES.companyType
-        ? companyTypes
-        : {},
+          ? salaryRanges
+          : filter.title === FILTER_TITLES.companyType
+            ? companyTypes
+            : {},
     setState:
       filter.title === FILTER_TITLES.level
         ? setLevels
         : filter.title === FILTER_TITLES.salary
-        ? setSalaryRanges
-        : filter.title === FILTER_TITLES.companyType
-        ? setCompanyTypes
-        : {},
+          ? setSalaryRanges
+          : filter.title === FILTER_TITLES.companyType
+            ? setCompanyTypes
+            : {},
   }));
 
   // reset filters when accessing the page
@@ -152,14 +152,14 @@ function FilterJobs() {
         </button>
 
         <button className={cx('clear-btn')} onClick={handleClearFilters}>
-          Clear all filters
+          Xóa bộ lọc
         </button>
       </div>
 
       {/* filters for mobile */}
       <div className={cx('filter-form_mobile')}>
         <div className={cx('filter-btn_mobile')} onClick={() => setActiveOverlay(true)}>
-          <span>Filter</span>
+          <span>Bộ lọc</span>
           <span>
             <FontAwesomeIcon icon={faCaretDown} />
           </span>
@@ -198,11 +198,11 @@ function FilterJobs() {
 
               <div className={cx('filter-action_mobile')}>
                 <button className={cx('filter-item', 'filter-btn')} onClick={handleFilterJobs}>
-                  Apply filters
+                  Áp dụng bộ lọc
                 </button>
 
                 <button className={cx('clear-btn')} onClick={handleClearFilters}>
-                  Clear all filters
+                  Xóa bộ lọc
                 </button>
               </div>
             </div>

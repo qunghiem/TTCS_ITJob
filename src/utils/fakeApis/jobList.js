@@ -1057,7 +1057,7 @@ export const jobList = [
     description: [
       {
         detail: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoàì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {
@@ -1134,7 +1134,7 @@ export const jobList = [
     description: [
       {
         detail: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoàì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {
@@ -2713,7 +2713,7 @@ export const jobList = [
     description: [
       {
         detail: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoàì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {
@@ -2790,7 +2790,7 @@ export const jobList = [
     description: [
       {
         detail: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoàì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {

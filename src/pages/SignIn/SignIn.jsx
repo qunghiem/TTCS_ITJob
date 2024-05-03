@@ -110,41 +110,41 @@ function SignIn() {
                 <span className={cx('google-logo')}>
                   <Image src={images.google} alt="google-icon" />
                 </span>
-                <span>Sign in with Google</span>
+                <span>Đăng nhập bằng Google</span>
               </Button>
 
               <div className={cx('separator')}>
                 <span className={cx('separator-line')}></span>
-                <span className={cx('separator-text')}>OR</span>
+                <span className={cx('separator-text')}>hoặc</span>
                 <span className={cx('separator-line')}></span>
               </div>
 
               <Form items={inputItems} handleSubmit={(data) => handleSignIn(data)} submitBtn="Sign in with Email" />
 
               <div className={cx('sign-up')}>
-                <span>Do not have an account? </span>
-                <Link to={config.routes.signUp}>Sign up now!</Link>
+                <span>Bạn chưa có tài khoản? </span>
+                <Link to={config.routes.signUp}>Đăng ký ngay!</Link>
               </div>
             </div>
 
             <div className={cx('sign-in_message')}>
-              <h2>Sign in to get instant access to thousands of reviews and salary information</h2>
+              <h2>Đăng nhập để có quyền truy cập ngay vào hàng ngàn đánh giá và thông tin về lương</h2>
               <ul>
                 <li>
                   <FontAwesomeIcon className={cx('list-icon')} icon={faCheck} />{' '}
-                  <span>View salary to help you negotiate your offer or pay rise</span>
+                  <span>Xem mức lương để giúp bạn thương lượng lời đề nghị hoặc tăng lương</span>
                 </li>
                 <li>
                   <FontAwesomeIcon className={cx('list-icon')} icon={faCheck} />{' '}
-                  <span>Find out about benefits, interview, company culture via reviews</span>
+                  <span>Tìm hiểu về quyền lợi, phỏng vấn, văn hóa công ty qua các bài đánh giá</span>
                 </li>
                 <li>
                   <FontAwesomeIcon className={cx('list-icon')} icon={faCheck} />{' '}
-                  <span>Easy apply with only 1 click</span>
+                  <span>Dễ dàng áp dụng chỉ với 1 cú nhấp chuột</span>
                 </li>
                 <li>
                   <FontAwesomeIcon className={cx('list-icon')} icon={faCheck} />{' '}
-                  <span>Manage your own profile & privacy</span>
+                  <span>Quản lý hồ sơ và quyền riêng tư của riêng bạn</span>
                 </li>
               </ul>
             </div>

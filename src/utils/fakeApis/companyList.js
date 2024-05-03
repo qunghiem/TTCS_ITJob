@@ -430,7 +430,7 @@ export const companyList = [
       {
         subTitle: 'bbv Vietnam stands for top quality in consulting, first class software engineering',
         content: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoàì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {
@@ -655,7 +655,7 @@ export const companyList = [
     address: '99 Nguyễn Thị Minh Khai, Phường Bến Thành',
     district: 1,
     province: 'Ho Chi Minh',
-    type: 'Thuê ngoaì',
+    type: 'Thuê ngoàì',
     workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: 'OT',
