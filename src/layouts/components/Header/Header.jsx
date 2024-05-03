@@ -100,7 +100,7 @@ function Header({ search = false }) {
               <div
                 onClick={() => {
                   dispatch(filtersSlice.actions.searchFilterChange(''));
-                  dispatch(filtersSlice.actions.locationFilterChange('All Cities'));
+                  dispatch(filtersSlice.actions.locationFilterChange('Tất cả thành phố'));
                   window.location.reload(false);
                 }}
               >

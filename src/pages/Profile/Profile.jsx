@@ -34,10 +34,10 @@ function Profile() {
           <div className={cx('profile-info')}>
             <header className={cx('profile-header')}>
               <span className={cx({ active: type === 'profile' })} onClick={() => setType('profile')}>
-                Profile
+                Hồ sơ
               </span>
               <span className={cx({ active: type === 'account' })} onClick={() => setType('account')}>
-                Edit Account
+                Chỉnh sửa tài khoản
               </span>
             </header>
 
@@ -45,7 +45,7 @@ function Profile() {
           </div>
 
           <div className={cx('recommended-jobs')}>
-            <h3>Recommended Jobs for you</h3>
+            <h3>Công việc được đề xuất cho bạn</h3>
             {recommendedJobListShow.slice(0, 3).map((job, index) => (
               <JobItem key={index} data={job} />
             ))}

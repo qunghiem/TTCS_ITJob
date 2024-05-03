@@ -38,8 +38,8 @@ function AppliedJobs() {
             </div>
           ) : (
             <>
-              <h1 className={cx('title')}>You have 0 Applied Jobs</h1>
-              <h3 className={cx('subtitle')}>Trời ơi! You haven't applied for any jobs yet.</h3>
+              <h1 className={cx('title')}>Bạn có 0 việc làm ứng tuyển</h1>
+              <h3 className={cx('subtitle')}>Bạn chưa ứng tuyển công việc nào!</h3>
               <Image className={cx('applied-jobs_img')} src={images.none_jobs_applied} alt="apply-now_img" />
             </>
           )}

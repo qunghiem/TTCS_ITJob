@@ -93,7 +93,7 @@ function SignIn() {
 
   const handleSetSkillsSetOverlay = useCallback(setSkillsSetOverlay, []);
 
-  const handleDelay = useCallback(() => alert('Sorry! This function has not been developed.'), []);
+  const handleDelay = useCallback(() => alert('Xin lỗi! Chức năng này chưa được phát triển.'), []);
 
   return (
     <div className={cx('wrapper')}>

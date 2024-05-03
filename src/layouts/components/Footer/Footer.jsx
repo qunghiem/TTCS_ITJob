@@ -113,7 +113,7 @@ function Footer() {
           </div>
 
           <div className={cx('links-copy-right')}>
-            <span className={cx('item')}>Tax code: 0123456789</span>
+            <span className={cx('item')}>Mã số thuế: 0123456789</span>
             <div className={cx('icons')}>
               <a href="https://www.facebook.com/">
                 <i>

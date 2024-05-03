@@ -68,25 +68,25 @@ function AccountInfo() {
     <>
       {/* account */}
       <div className={cx('title-container')}>
-        <h3 className={cx('profile-title')}>Account</h3>
+        <h3 className={cx('profile-title')}>Tài khoản</h3>
         <span
           className={cx('toggle-btn', 'account')}
           onClick={() => {
             setIsAccountToggle(!isAccountToggle);
           }}
         >
-          Change
+          Thay đổi
         </span>
       </div>
 
-      <h5 className={cx('profile-fullname')}>{currentUser.fullname}</h5>
+      {/* <h5 className={cx('profile-fullname')}>{currentUser.fullname}</h5> */}
       <p>Email: {currentUser.email}</p>
 
       <div className={cx('profile-collapse', { show: isAccountToggle })}>
-        <div className={cx('form-group')}>
+        {/* <div className={cx('form-group')}>
           <label>Email</label>
           <div>{currentUser.email}</div>
-        </div>
+        </div> */}
 
         <div className={cx('form-group')}>
           <label>Username</label>
@@ -95,19 +95,19 @@ function AccountInfo() {
 
         <div className={cx('edit-btn')}>
           <Button outline onClick={handleSetAccountToggle}>
-            Cancel
+            Hủy
           </Button>
           <Button primary onClick={handleUserNameChange}>
-            Save
+            Lưu
           </Button>
         </div>
       </div>
 
       {/* cover letter */}
       <div className={cx('title-container')}>
-        <h3 className={cx('profile-title')}>Cover Letter</h3>
+        <h3 className={cx('profile-title')}>Hồ sơ ứng tuyển</h3>
         <span className={cx('toggle-btn', 'cover-letter')} onClick={() => setIsLetterToggle(!isLetterToggle)}>
-          Change
+          Thay đổi
         </span>
       </div>
 
@@ -115,30 +115,28 @@ function AccountInfo() {
         <textarea
           className={cx('')}
           rows={4}
-          placeholder="Detail and specific examples will make your application stronger..."
+          placeholder="Ví dụ chi tiết và cụ thể sẽ làm cho ứng dụng của bạn mạnh mẽ hơn..."
           value={coverLetter}
           onChange={(e) => setCoverLetter(e.target.value)}
         />
 
         <div className={cx('edit-btn')}>
           <Button outline onClick={handleSetIsHeaderToggle}>
-            Cancel
+            Hủy
           </Button>
           <Button primary onClick={handleUserCoverLetterChange}>
-            Save
+            Lưu
           </Button>
         </div>
       </div>
 
       <div className={cx('profile-policy')}>
-        <h3 className={cx('profile-title')}>Profile Privacy</h3>
+        <h3 className={cx('profile-title')}>Hồ sơ mật</h3>
         <p className={cx('profile-policy_text')}>
-          If you turn off this option, we won't send you any invitation for a year from our latest product - AI Match
-          for employers. Check out the <Link to={config.routes.pending.replace(':pathname', 'faq')}>FQA</Link> for more
-          details.
+          Nếu bạn tắt tùy chọn này, chúng tôi sẽ không gửi cho bạn bất kỳ lời mời nào trong vòng một năm từ sản phẩm mới nhất của chúng tôi - AI Match dành cho nhà tuyển dụng. Kiểm tra <Link to={config.routes.pending.replace(':pathname', 'faq')}>FQA</Link> để biết thêm chi tiết
         </p>
         <div className={cx('profile-policy_toggle-btn')}>
-          <span>Receive Job Invitation</span>
+          <span>Nhận lời mời làm việc</span>
           <ToggleSwitch state={isInvitationToggle} onToggle={handleSetIsInvitationToggle} />
         </div>
       </div>

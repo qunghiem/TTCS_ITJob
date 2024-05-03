@@ -42,12 +42,12 @@ function Companies() {
     const companyId = companyList.find((company) => company.name === companyName).id;
 
     if (currentUser.followedCompany?.some((id) => id === companyId)) {
-      alert('Opps! You have already subscribed for this company');
+      alert('Bạn đã đăng ký cho công ty này!');
       setKeyWord('');
       setSelectedCompany('');
       return;
     } else if (currentUser.followedCompany?.length === 5) {
-      alert('Opps! You can only follow maximum 5 companies');
+      alert('Bạn không thể theo dõi nhiều hơn 5 công ty!');
       setKeyWord('');
       setSelectedCompany('');
       return;
@@ -73,9 +73,9 @@ function Companies() {
     <div className={cx('box')}>
       {/* header */}
       <header className={cx('header')}>
-        <h1 className={cx('title')}>My Following Company</h1>
+        <h1 className={cx('title')}>Công ty đang theo dõi của tôi</h1>
         <p className={cx('subtitle')}>
-          Add new, or delete your Following Companies here. You can follow up to 5 companies.
+        Thêm mới hoặc xóa các Công ty sau đây của bạn tại đây. Bạn có thể theo dõi tối đa 5 công ty.
         </p>
       </header>
       {/* followed company list */}
@@ -101,7 +101,7 @@ function Companies() {
                 </Link>
               </div>
 
-              <span className={cx('myjr-status')}>Following</span>
+              <span className={cx('myjr-status')}>Đang theo dõi</span>
             </div>
           ))}
         </div>
@@ -113,7 +113,7 @@ function Companies() {
           <input
             ref={inputRef}
             type="text"
-            placeholder="Select Company"
+            placeholder="Chọn công ty"
             value={keyWord}
             onChange={(e) => setKeyWord(e.target.value)}
             onBlur={() => setTimeout(() => setShowAutoComplete(false), 200)}
@@ -136,16 +136,15 @@ function Companies() {
 
         <div className={cx('form-actions', 'float-right')}>
           <Button className={cx('myrj-btn')} primary onClick={() => handleFollowCompany(selectedCompany)}>
-            Follow Company
+            Theo dõi công ty
           </Button>
         </div>
       </div>
       {/* more infomation */}
       <div className={cx('explanation')}>
-        <p className={cx('explanation-waring')}>Don't miss your next job!</p>
+        <p className={cx('explanation-waring')}>Đừng bỏ lỡ công việc tiếp theo của bạn!</p>
         <p>
-          Add the company name that you're interested in, then click "Follow Company". We'll email you new reviews about
-          your following companies and new jobs from them, up to 1 email per day.
+        Thêm tên công ty mà bạn quan tâm, sau đó nhấp vào "Theo dõi công ty". Chúng tôi sẽ gửi cho bạn những đánh giá mới qua email về các công ty bạn theo dõi và công việc mới từ họ, tối đa 1 email mỗi ngày.
         </p>
       </div>
     </div>

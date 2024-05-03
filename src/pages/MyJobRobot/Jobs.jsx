@@ -70,8 +70,8 @@ function Jobs() {
     <div className={cx('box')}>
       {/* header */}
       <header className={cx('header')}>
-        <h1 className={cx('title')}>My Job Robot</h1>
-        <p className={cx('subtitle')}>Add new, or delete your Job Robots here. You can create up to 5 Job Robots.</p>
+        <h1 className={cx('title')}>Robot công việc của tôi</h1>
+        <p className={cx('subtitle')}>Thêm mới hoặc xóa Robot công việc của bạn tại đây. Bạn có thể tạo tối đa 5 Robot công việc.</p>
       </header>
 
       {/* job robot list */}
@@ -94,7 +94,7 @@ function Jobs() {
                   {item.location}
                 </span>
 
-                <span className={cx('myjr-status')}>Subscribed</span>
+                <span className={cx('myjr-status')}>Đã đăng ký</span>
               </div>
             </div>
           ))}
@@ -109,7 +109,7 @@ function Jobs() {
           </i>
           <input
             type="text"
-            placeholder="Keyword skill (Java, iOS, ...), Job Title..."
+            placeholder="Nhập từ khóa theo kỹ năng, chức v"
             value={keyWord}
             onChange={(e) => setKeyWord(e.target.value)}
           />
@@ -154,15 +154,15 @@ function Jobs() {
           </Tippy>
 
           <Button className={cx('myrj-btn')} primary onClick={handleAddNewJobRobot}>
-            Get Jobs
+            Nhận việc
           </Button>
         </div>
       </div>
 
       {/* more infomation */}
       <div className={cx('explanation')}>
-        <p className={cx('explanation-waring')}>Don't miss your next job!</p>
-        <p>Add your skill and city, then click "Get Jobs". We'll email you suitable new jobs, up to 1 email per day.</p>
+        <p className={cx('explanation-waring')}>Đừng bỏ lỡ công việc tiếp theo của bạn!</p>
+        <p>Thêm tên công ty mà bạn quan tâm, sau đó nhấp vào "Theo dõi công ty". Chúng tôi sẽ gửi cho bạn những đánh giá mới qua email về các công ty bạn theo dõi và công việc mới từ họ, tối đa 1 email mỗi ngày.</p>
       </div>
     </div>
   );

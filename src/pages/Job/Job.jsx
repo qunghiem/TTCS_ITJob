@@ -48,7 +48,7 @@ function Job() {
     setJobId(window.location.pathname.slice(-7).replace('-', '_'));
   }, [window.location.pathname]);
 
-  const handleDelay = useCallback(() => alert('Sorry! This function has not been developed.'), []);
+  const handleDelay = useCallback(() => alert('Xin lỗi! Chức năng này chưa được phát triển.'), []);
 
   const handleSelectJob = () => {
     jobId !== window.location.pathname.slice(-7).replace('-', '_') && window.location.reload(false);

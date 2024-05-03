@@ -17,23 +17,23 @@ function PageNotFound() {
           <Image src={images.success} />
         </div>
         <div className={cx('content')}>
-          <h1 className={cx('title')}>Oops!</h1>
-          <h2 className={cx('sub-title')}>This page has found a better job.</h2>
+          <h1 className={cx('title')}>Ôi!</h1>
+          <h2 className={cx('sub-title')}>Trang này đã tìm được việc làm tốt hơn.</h2>
           <div className={cx('message')}>
-            <p>We're sorry, but the page you're looking for doesn't exist.</p>
-            <p>Find your own better job today!</p>
+            <p>Rất tiếc, trang bạn đang tìm kiếm không tồn tại.</p>
+            <p>Hãy tìm công việc tốt hơn cho riêng bạn ngay hôm nay!</p>
           </div>
 
           <Search className={cx('search')} />
 
           <p className={cx('message')}>
-            <span>Or go back to </span>
+            <span>Hoặc quay trở lại </span>
             <Link className={cx('hightlight')} to={config.routes.home}>
-              Home
+              Trang chủ
             </Link>
-            <span> or </span>
+            <span> hoặc </span>
             <Link className={cx('hightlight')} to={config.routes.pending}>
-              Contact us
+              Liên hệ
             </Link>
           </p>
         </div>

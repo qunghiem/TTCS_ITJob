@@ -31,7 +31,7 @@ function Jobs() {
         <JobResult jobList={filteredJobList} />
       </div>
 
-      <Path items={[{ title: 'Home', to: config.routes.home }, { title: 'All IT Jobs' }]} />
+      <Path items={[{ title: 'Trang chủ', to: config.routes.home }, { title: 'Tất cả việc làm IT' }]} />
     </div>
   );
 }

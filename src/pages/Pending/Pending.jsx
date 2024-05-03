@@ -7,8 +7,8 @@ const cx = classNames.bind(styles);
 function Pending() {
   return (
     <div className={cx('wrapper')}>
-      <h1>{window.location.pathname.slice(10, window.location.pathname.length)} Pending Page</h1>
-      <p>Not yet developed...</p>
+      <h1>Xin lỗi! Trang {window.location.pathname.slice(10, window.location.pathname.length)}</h1>
+      <p>Chưa phát triển...</p>
     </div>
   );
 }
