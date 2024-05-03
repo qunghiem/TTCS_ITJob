@@ -38,21 +38,21 @@ function Form({ items = [], handleSubmit = () => {}, submitBtn = 'Submit' }) {
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/;
 
     if (!values.fullname && Object.keys(initValues).includes('fullname')) {
-      errors.fullname = "Can't be blank";
+      errors.fullname = "Không thể để trống";
     }
 
     if (!values.email && Object.keys(initValues).includes('email')) {
-      errors.email = "Can't be blank";
+      errors.email = "Không thể để trống";
     } else if (!emailRegex.test(values.email)) {
-      errors.email = 'Please check your email';
+      errors.email = 'Vui lòng kiểm tra email của bạn';
     }
 
     if (!values.password && Object.keys(initValues).includes('password')) {
-      errors.password = "Can't be blank";
+      errors.password = "Không thể để trống";
     } else if (values.password.length < 8) {
-      errors.password = 'Minimum 8 characters';
+      errors.password = 'Tối thiểu 8 ký tự';
     } else if (!passwordRegex.test(values.password)) {
-      errors.password = 'At least 1 symbol, 1 number, 1 uppercase letter, 1 lowercase letter.';
+      errors.password = 'Ít nhất 1 ký hiệu, 1 số, 1 chữ hoa, 1 chữ thường.';
     }
     return errors;
   };
@@ -64,22 +64,22 @@ function Form({ items = [], handleSubmit = () => {}, submitBtn = 'Submit' }) {
 
     switch (input) {
       case 'fullname':
-        if (!value) errors.fullname = "Can't be blank";
+        if (!value) errors.fullname = "Không thể để trống";
         break;
       case 'email':
         if (!value) {
-          errors.email = "Can't be blank";
+          errors.email = "Không thể để trống";
         } else if (!emailRegex.test(value)) {
-          errors.email = 'Please check your email';
+          errors.email = 'Vui lòng kiểm tra email của bạn';
         }
         break;
       case 'password':
         if (!value) {
-          errors.password = "Can't be blank";
+          errors.password = "Không thể để trống";
         } else if (value.length < 8) {
-          errors.password = 'Minimum 8 characters';
+          errors.password = 'Tối thiểu 8 ký tự';
         } else if (!passwordRegex.test(value)) {
-          errors.password = 'At least 1 symbol, 1 number, 1 uppercase letter, 1 lowercase letter.';
+          errors.password = 'Ít nhất 1 ký hiệu, 1 số, 1 chữ hoa, 1 chữ thường.';
         }
         break;
     }

@@ -7,8 +7,8 @@ const cx = classNames.bind(styles);
 function Blog() {
   return (
     <div className={cx('wrapper')}>
-      <h1>Blog Page</h1>
-      <p>Not yet developed...</p>
+      <h1>Trang Blog</h1>
+      <p>Chưa được phát triển...</p>
     </div>
   );
 }

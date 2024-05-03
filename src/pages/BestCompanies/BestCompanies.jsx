@@ -7,8 +7,8 @@ const cx = classNames.bind(styles);
 function BestCompanies() {
   return (
     <div className={cx('wrapper')}>
-      <h1>Best Companies Page</h1>
-      <p>Not yet developed...</p>
+      <h1>Trang Công ty tốt nhất</h1>
+      <p>Chưa được phát triển...</p>
     </div>
   );
 }

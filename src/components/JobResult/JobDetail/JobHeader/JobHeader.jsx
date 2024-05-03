@@ -73,11 +73,11 @@ function JobHeader({ className, job = {}, company = {} }) {
         <div className={cx('apply')}>
           {!!currentUser && currentUser?.appliedJobs?.includes(job.id) ? (
             <button className={cx('applied')} disabled>
-              Apply Now
+              Ứng tuyển
             </button>
           ) : (
             <Button primary xl onClick={handleApplyJob}>
-              Apply Now
+              Ứng tuyển
             </Button>
           )}
           <button className={cx('icons')} onClick={handleToggleSaveJob}>
@@ -90,7 +90,7 @@ function JobHeader({ className, job = {}, company = {} }) {
         </div>
 
         <Modal
-          title="You have applied for this job successfully!"
+          title="Bạn đã ứng tuyển thành công!"
           active={activeOverlay}
           setActive={handleSetActiveOverlay}
           className={cx('applied-modal')}

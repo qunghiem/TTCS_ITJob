@@ -24,7 +24,7 @@ function AutoComplete({ className, search = '', items = [], handleAdd = () => {}
               {item}
             </span>
           ))}
-        {skillList.length === 0 && <i className={cx('not-found')}>No result found</i>}
+        {skillList.length === 0 && <i className={cx('not-found')}>Không có kết quả nào</i>}
       </div>
     );
   }

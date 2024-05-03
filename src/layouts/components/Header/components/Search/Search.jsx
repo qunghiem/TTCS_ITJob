@@ -24,7 +24,7 @@ function Search({ className, big }) {
 
   const [searchTextDisplay, setSearchTextDisplay] = useState('');
   const [locationDisplay, setLocationDisplay] = useState(
-    currentUser && currentUser.location ? currentUser.location : 'All Cities',
+    currentUser && currentUser.location ? currentUser.location : 'Tất cả thành phố',
   );
   const [activeOverlay, setActiveOverlay] = useState(false);
   const [activeInputSearch, setActiveInputSearch] = useState(false);
@@ -58,7 +58,7 @@ function Search({ className, big }) {
           {big ? <FontAwesomeIcon className={cx('search-icon')} icon={faMagnifyingGlass} /> : ''}
           <input
             type="text"
-            placeholder="Keyword skill (Java, iOS...), Job Title, Company..."
+            placeholder="Nhập từ khóa theo kỹ năng, chức vụ, công ty..."
             onFocus={() => {
               setActiveOverlay(true);
               setActiveInputSearch(true);
@@ -122,7 +122,7 @@ function Search({ className, big }) {
 
         {/* search button */}
         <button className={cx('search-btn')} onClick={handleSearchJobs}>
-          {big ? <span>Search</span> : <FontAwesomeIcon icon={faMagnifyingGlass} />}
+          {big ? <span>Tìm kiếm</span> : <FontAwesomeIcon icon={faMagnifyingGlass} />}
         </button>
 
         {/* overlay */}

@@ -80,7 +80,7 @@ function CompanyProfile() {
     handleUpdateFollowedCompany(newList);
   }, []);
 
-  const handleDelay = useCallback(() => alert('Sorry! This function has not been developed.'), []);
+  const handleDelay = useCallback(() => alert('Xin lỗi! Chức năng chưa được phát triển.'), []);
 
   const handleSetType = useCallback(setType, []);
 
@@ -100,7 +100,7 @@ function CompanyProfile() {
                 <div className={cx('characteristics')}>
                   <CharacteristicItem className={cx('location')} icon={<FontAwesomeIcon icon={faLocationDot} />}>
                     {typeof currentCompany.district === 'number'
-                      ? `District ${currentCompany.district}, ${currentCompany.province}`
+                      ? `Quận ${currentCompany.district}, ${currentCompany.province}`
                       : `${currentCompany.district}, ${currentCompany.province}`}
                   </CharacteristicItem>
                   <CharacteristicItem icon={<FontAwesomeIcon icon={faGear} />}>
@@ -125,7 +125,7 @@ function CompanyProfile() {
 
               <div className={cx('actions')}>
                 <Button className={cx('actions-btn')} primary xl onClick={handleDelay}>
-                  Write Review
+                  Viết đánh giá
                 </Button>
                 {currentUser && currentUser.followedCompany?.includes(currentCompany.id) ? (
                   <Button className={cx('actions-btn')} outline xl onClick={handleUnfollowCompany}>
@@ -133,12 +133,12 @@ function CompanyProfile() {
                       <i>
                         <FontAwesomeIcon icon={faCheck} />
                       </i>
-                      <span>Following</span>
+                      <span>Đang theo dõi</span>
                     </>
                   </Button>
                 ) : (
                   <Button className={cx('actions-btn')} outline xl onClick={handleFollowCompany}>
-                    Follow
+                    Theo dõi
                   </Button>
                 )}
               </div>
@@ -148,11 +148,11 @@ function CompanyProfile() {
           {/* navigation bar */}
           <ul className={cx('navigation')}>
             <li className={cx('tab', { active: type === 'job' })} onClick={() => setType('job')}>
-              Jobs
+              Việc làm
             </li>
             <li className={cx('tab', { active: type === 'review' })} onClick={() => setType('review')}>
               {`${currentCompany.review ? currentCompany.review?.length : ''} ${
-                currentCompany.review?.length > 0 ? 'Reviews' : 'Review'
+                currentCompany.review?.length > 0 ? 'Đánh giá' : 'Đánh giá'
               }`}
             </li>
             <li className={cx('website')}>

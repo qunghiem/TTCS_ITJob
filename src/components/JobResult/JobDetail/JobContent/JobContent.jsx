@@ -10,14 +10,14 @@ function JobContent({ job = {} }) {
   if (job.id) {
     return (
       <div className={cx('wrapper')}>
-        {job.reasonToJoin && <h2 className={cx('title')}>Top 3 Reasons To Join Us</h2>}
+        {job.reasonToJoin && <h2 className={cx('title')}>3 lý do hàng đầu để tham gia với chúng tôi</h2>}
         <ul className={cx('detail', 'hightlight')}>
           {job.reasonToJoin?.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
 
-        <h2 className={cx('title')}>Job Description</h2>
+        <h2 className={cx('title')}>Mô tả công việc</h2>
         {job.description?.map((item, index) => (
           <div key={index}>
             {item.title && <h3 className={cx('sub-title')}>{`${item.title}: `}</h3>}
@@ -35,7 +35,7 @@ function JobContent({ job = {} }) {
           </div>
         ))}
 
-        <h2 className={cx('title')}>Your Skills and Experience</h2>
+        <h2 className={cx('title')}>Yêu cầu công việc</h2>
         {job.requirements?.map((item, index) => (
           <div key={index}>
             {item.title && <h3 className={cx('sub-title')}>{`${item.title}: `}</h3>}
@@ -51,7 +51,7 @@ function JobContent({ job = {} }) {
           </div>
         ))}
 
-        <h2 className={cx('title')}>Why You'll Love Working Here</h2>
+        <h2 className={cx('title')}>Tại sao bạn sẽ yêu thích làm việc tại đây</h2>
         <ul className={cx('detail')}>
           {job.benefit?.map((item, index) => (
             <li key={index}>{item}</li>

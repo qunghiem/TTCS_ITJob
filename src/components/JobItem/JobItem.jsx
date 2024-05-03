@@ -105,7 +105,7 @@ function JobItem({ data = {}, selectJob = () => {} }) {
 
           <div className={cx('hight-light')}>
             {data.hotJob ? <span className={cx('hot-tag')}>Hot</span> : ''}
-            {!data.seen ? <span className={cx('new-tag')}>New For You</span> : ''}
+            {!data.seen ? <span className={cx('new-tag')}>Mới dành cho bạn</span> : ''}
             <span>{data.location}</span>
             <span className={cx({ newPost: !jobPostedDay })}>
               {jobPostedDay > 0

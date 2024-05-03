@@ -69,7 +69,7 @@ const JOBS = [
       'Database Administrator',
       'Mobile Apps Developer',
       'Project Manager',
-      'Product Owner',
+      'Sản phẩm Owner',
       'Bridge Engineer',
     ],
     viewAll: 'title',
@@ -125,7 +125,7 @@ const HEADER_MOBILE_MENU = [
       { title: 'Công ty IT tốt nhất 2019', to: config.routes.bestCompanies },
     ],
   },
-  { title: 'Company Reviews', to: config.routes.reviewCompany },
+  { title: 'Reviews Công ty', to: config.routes.reviewCompany },
   { title: 'Blog', to: config.routes.blog },
 ];
 
@@ -149,7 +149,7 @@ const FILTERS = [
   },
   {
     title: FILTER_TITLES.companyType,
-    data: ['Outsourcing', 'Product'],
+    data: ['Thuê ngoaì', 'Sản phẩm'],
   },
 ];
 

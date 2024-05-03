@@ -44,8 +44,8 @@ function HeadSearch() {
       <div className={cx('content')}>
         <h1 className={cx('title')}>
           {currentUser
-            ? `${jobList.length} IT Jobs "Chất" for ${currentUser.fullname}`
-            : `${jobList.length} IT Jobs for "Chất" Developers`}
+            ? `${jobList.length} Việc làm IT dành cho ${currentUser.fullname}`
+            : `${jobList.length} Việc làm IT dành cho Developers`}
         </h1>
         <div className={cx('search-form')}>
           <Search className={cx('head-search')} big />

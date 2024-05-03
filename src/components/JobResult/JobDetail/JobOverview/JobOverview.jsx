@@ -62,7 +62,7 @@ function JobOverview({ job = {} }) {
           <>
             <span>{address}</span>
             <a href={mapLink} className={cx('map-link')} target="_blank">
-              See map
+              Xem bản đồ
             </a>
           </>
         </CharacteristicItem>

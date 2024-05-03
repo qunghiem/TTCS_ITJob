@@ -22,13 +22,13 @@ function Review({ currentCompany = {} }) {
             </div>
             <div className={cx('rating-item_left')}>
               <div className={cx('rating-ratio')}>{currentCompany.recommendation.ratio}%</div>
-              <div className={cx('rating-comment')}>Recommend working here to a friend</div>
+              <div className={cx('rating-comment')}>Giới thiệu làm việc ở đây cho bạn bè</div>
             </div>
           </div>
 
           <div className={cx('content-left_item')}>
             <h3 className={cx('content-title')}>
-              {currentCompany.review && currentCompany.review?.length} Employee Reviews
+              {currentCompany.review && currentCompany.review?.length} Đánh giá của nhân viên
             </h3>
             {currentCompany.review &&
               currentCompany.review?.map((item, index) => (
@@ -42,11 +42,11 @@ function Review({ currentCompany = {} }) {
         </div>
       ) : (
         <div className={cx('write-review')}>
-          <h3 className={cx('content-title')}>Let your voice be heard.</h3>
+          <h3 className={cx('content-title')}>Hãy để tiếng nói của mình được lắng nghe</h3>
           <div>
-            <p className={cx('review-title')}>Review {currentCompany.name} now</p>
+            <p className={cx('review-title')}>Đánh giá {currentCompany.name} bây giờ</p>
             <Button primary xl onClick={handleDelay}>
-              Write review
+              Viết đánh giá
             </Button>
           </div>
         </div>
@@ -54,11 +54,11 @@ function Review({ currentCompany = {} }) {
 
       {!!currentCompany.recommendation && (
         <div className={cx('content-right_item')}>
-          <h3 className={cx('content-title')}>Let your voice be heard.</h3>
+          <h3 className={cx('content-title')}>Hãy để tiếng nói của mình được lắng nghe.</h3>
           <div>
-            <p className={cx('review-title')}>Review {currentCompany.name} now</p>
+            <p className={cx('review-title')}>Đánh giá {currentCompany.name} bây giờ</p>
             <Button primary xl onClick={handleDelay}>
-              Write review
+            Viết đánh giá
             </Button>
           </div>
         </div>

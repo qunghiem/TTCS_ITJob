@@ -47,7 +47,7 @@ function JobList({ jobList: passedJobList }) {
   // set title for job list
   let title = '';
   if (window.location.pathname === config.routes.home) {
-    title = `${passedJobList.length} Jobs recommended for ${currentUser.fullname}`;
+    title = `${passedJobList.length} Việc làm được đề xuất cho ${currentUser.fullname}`;
   } else if (window.location.pathname === config.routes.jobs) {
     if (searchTextError && currentJobList.length > 0) {
       title = (

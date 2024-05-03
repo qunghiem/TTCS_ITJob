@@ -11,11 +11,11 @@ export const companyList = [
     logo: logos.COM_01,
     images: images,
     profileLink: config.routes.companyProfile,
-    address: '19th Floor, 81-85 Ham Nghi Street, Nguyen Thai Binh Ward',
+    address: 'Tầng 19, 81-85 Ham Nghi Street, P.Nguyen Thai Binh',
     district: 1,
     province: 'Ho Chi Minh',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: false,
     country: 'Viet Nam',
@@ -59,11 +59,11 @@ export const companyList = [
 
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 3.0 },
-        { title: 'Training & learning', score: 3.5 },
-        { title: 'Management cares about me', score: 4.6 },
-        { title: 'Culture & fun', score: 3.9 },
-        { title: 'Office & workspace', score: 4.6 },
+        { title: 'Lương và phúc lợi', score: 3.0 },
+        { title: 'Đào tạo & học tập', score: 3.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 4.6 },
+        { title: 'Văn hóa & vui chơi', score: 3.9 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.6 },
       ],
     },
     review: [
@@ -98,8 +98,8 @@ export const companyList = [
     address: '56 Yên Thế, Phường 2',
     district: 'Tan Binh',
     province: 'Ho Chi Minh',
-    type: 'Outsourcing',
-    workingDays: 'Monday - Friday',
+    type: 'Thuê ngoài',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '51-150',
     overtime: false,
     country: 'Viet Nam',
@@ -108,7 +108,7 @@ export const companyList = [
       {
         subTitle: 'Bstar Solutions',
         content: [
-          'BStar is pioneering the Silicon Valley of Vietnam and Southeast Asia. Our mission is to solve business and technical problems. We transform clients’ business concepts through the stages of the prototype, minimum viable product (MVP), and production. Our mastery of global software development processes and business oriented focus allows our clients to achieve their business objectives.',
+          'BStar is pioneering the Silicon Valley of Vietnam and Southeast Asia. Our mission is to solve business and technical problems. We transform clients’ business concepts through the stages of the prototype, minimum viable Sản phẩm (MVP), and Sản phẩmion. Our mastery of global software development processes and business oriented focus allows our clients to achieve their business objectives.',
         ],
       },
       {
@@ -156,11 +156,11 @@ export const companyList = [
 
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 3.5 },
-        { title: 'Training & learning', score: 4.5 },
-        { title: 'Management cares about me', score: 3.6 },
-        { title: 'Culture & fun', score: 4.5 },
-        { title: 'Office & workspace', score: 4.7 },
+        { title: 'Lương và phúc lợi', score: 3.5 },
+        { title: 'Đào tạo & học tập', score: 4.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 3.6 },
+        { title: 'Văn hóa & vui chơi', score: 4.5 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.7 },
       ],
     },
     review: [
@@ -207,8 +207,8 @@ export const companyList = [
     address: '57 Quốc lộ 13, Phường 26',
     district: 'Binh Thanh',
     province: 'Ho Chi Minh',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '51-150',
     overtime: false,
     country: 'United Kingdom',
@@ -227,11 +227,11 @@ export const companyList = [
 
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 4.5 },
-        { title: 'Training & learning', score: 3.5 },
-        { title: 'Management cares about me', score: 4.6 },
-        { title: 'Culture & fun', score: 3.5 },
-        { title: 'Office & workspace', score: 4.2 },
+        { title: 'Lương và phúc lợi', score: 4.5 },
+        { title: 'Đào tạo & học tập', score: 3.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 4.6 },
+        { title: 'Văn hóa & vui chơi', score: 3.5 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.2 },
       ],
     },
     review: [
@@ -271,8 +271,8 @@ export const companyList = [
     address: 'Tầng 17, Tòa nhà Geleximco, Số 36 Hoàng Cầu, Phường Ô Chợ Dừa',
     district: 'Dong Da',
     province: 'Ha Noi',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '151-300',
     overtime: false,
     country: 'Viet Nam',
@@ -290,11 +290,11 @@ export const companyList = [
 
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 3.5 },
-        { title: 'Training & learning', score: 3.5 },
-        { title: 'Management cares about me', score: 3.9 },
-        { title: 'Culture & fun', score: 3.8 },
-        { title: 'Office & workspace', score: 4.7 },
+        { title: 'Lương và phúc lợi', score: 3.5 },
+        { title: 'Đào tạo & học tập', score: 3.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 3.9 },
+        { title: 'Văn hóa & vui chơi', score: 3.8 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.7 },
       ],
     },
     review: [
@@ -324,8 +324,8 @@ export const companyList = [
     address: 'Tầng 6, Tòa nhà Văn phòng 126 Hoàng Ngân',
     district: 'Cau Giay',
     province: 'Ha Noi',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: false,
     country: 'Viet Nam',
@@ -352,11 +352,11 @@ export const companyList = [
     website: 'https://tjtech.tech/',
     images: images,
     profileLink: config.routes.companyProfile,
-    address: 'Capital Place, 29 Lieu Giai Street, Ngoc Khanh Ward',
+    address: '29 P. Liễu Giai, Ngọc Khánh, Hà Nội',
     district: 'Ba Dinh',
     province: 'Ha Noi',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: 'Extra salary for OT',
     country: 'Japan',
@@ -420,8 +420,8 @@ export const companyList = [
     address: 'Quang Trung software city',
     district: 12,
     province: 'Ho Chi Minh',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: 'Extra salary for OT',
     country: 'Japan',
@@ -430,7 +430,7 @@ export const companyList = [
       {
         subTitle: 'bbv Vietnam stands for top quality in consulting, first class software engineering',
         content: [
-          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development outsourcing company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
+          'bbv Vietnam exists since 2006 and is a subsidiary of the bbv Group, a leading software company in Switzerland. We are a software development Thuê ngoaì company that focuses on custom web and mobile applications. Our customers are mainly from Switzerland and Germany.',
         ],
       },
       {
@@ -464,11 +464,11 @@ export const companyList = [
       ratio: 100,
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 4.2 },
-        { title: 'Training & learning', score: 3.8 },
-        { title: 'Management cares about me', score: 4.0 },
-        { title: 'Culture & fun', score: 4.1 },
-        { title: 'Office & workspace', score: 4.0 },
+        { title: 'Lương và phúc lợi', score: 4.2 },
+        { title: 'Đào tạo & học tập', score: 3.8 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 4.0 },
+        { title: 'Văn hóa & vui chơi', score: 4.1 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.0 },
       ],
     },
     review: [
@@ -539,8 +539,8 @@ export const companyList = [
     address: '307 B Nguyễn Văn Trỗi',
     district: 'Tan Binh',
     province: 'Ho Chi Minh',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: false,
     country: 'South Korea',
@@ -585,11 +585,11 @@ export const companyList = [
       ratio: 51,
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 2.0 },
-        { title: 'Training & learning', score: 2.5 },
-        { title: 'Management cares about me', score: 2.9 },
-        { title: 'Culture & fun', score: 3.1 },
-        { title: 'Office & workspace', score: 4.1 },
+        { title: 'Lương và phúc lợi', score: 2.0 },
+        { title: 'Đào tạo & học tập', score: 2.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 2.9 },
+        { title: 'Văn hóa & vui chơi', score: 3.1 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.1 },
       ],
     },
     review: [
@@ -598,14 +598,14 @@ export const companyList = [
 
         title: 'Không phải chen thang máy hằng ngày',
         comment:
-          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con product',
+          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con Sản phẩm',
       },
       {
         score: 4,
 
         title: 'Sếp khó, văn phòng ok, công việc nhàn hạ, phù hợp với sinh viên ra trường',
         comment:
-          '+ Văn phòng rộng rãi, phù hợp với số lượng nhân viên ít, môi trường nhỏ, công việc nhàn, + Công việc nhỏ lẻ, nhàn hạ, việc nhẹ, ko có áp lực, phù hợp với người ổn định gia đình và sinh viên mới ra trường + Product nhàn, vào có time, chỉ tiến thủ...',
+          '+ Văn phòng rộng rãi, phù hợp với số lượng nhân viên ít, môi trường nhỏ, công việc nhàn, + Công việc nhỏ lẻ, nhàn hạ, việc nhẹ, ko có áp lực, phù hợp với người ổn định gia đình và sinh viên mới ra trường + Sản phẩm nhàn, vào có time, chỉ tiến thủ...',
       },
       {
         score: 3,
@@ -619,14 +619,14 @@ export const companyList = [
 
         title: 'Không phải chen thang máy hằng ngày',
         comment:
-          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con product',
+          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con Sản phẩm',
       },
       {
         score: 4,
 
         title: 'Sếp khó, văn phòng ok, công việc nhàn hạ, phù hợp với sinh viên ra trường',
         comment:
-          '+ Văn phòng rộng rãi, phù hợp với số lượng nhân viên ít, môi trường nhỏ, công việc nhàn, + Công việc nhỏ lẻ, nhàn hạ, việc nhẹ, ko có áp lực, phù hợp với người ổn định gia đình và sinh viên mới ra trường + Product nhàn, vào có time, chỉ tiến thủ...',
+          '+ Văn phòng rộng rãi, phù hợp với số lượng nhân viên ít, môi trường nhỏ, công việc nhàn, + Công việc nhỏ lẻ, nhàn hạ, việc nhẹ, ko có áp lực, phù hợp với người ổn định gia đình và sinh viên mới ra trường + Sản phẩm nhàn, vào có time, chỉ tiến thủ...',
       },
       {
         score: 3,
@@ -640,7 +640,7 @@ export const companyList = [
 
         title: 'Không phải chen thang máy hằng ngày',
         comment:
-          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con product',
+          'Văn phòng rộng rãi, ở tầng thấp nên đi thang bộ là đã tới không có OT nên các bạn cứ thoải mái mà làm vì con Sản phẩm',
       },
     ],
   },
@@ -655,8 +655,8 @@ export const companyList = [
     address: '99 Nguyễn Thị Minh Khai, Phường Bến Thành',
     district: 1,
     province: 'Ho Chi Minh',
-    type: 'Outsourcing',
-    workingDays: 'Monday - Friday',
+    type: 'Thuê ngoaì',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '1-50',
     overtime: 'Extra salary for OT',
     country: 'Singapore',
@@ -687,8 +687,8 @@ export const companyList = [
     address: '40A Lam Sơn, Phường 2',
     district: 'Tan Binh',
     province: 'Ho Chi Minh',
-    type: 'Product',
-    workingDays: 'Monday - Friday',
+    type: 'Sản phẩm',
+    workingDays: 'Thứ 2 - Thứ 6',
     size: '51-150',
     overtime: false,
     country: 'United Arab Emirates',
@@ -697,12 +697,12 @@ export const companyList = [
       {
         subTitle: 'Athena Studio (http://www.athena.studio) - Playful workplace of smart and creative talent',
         content: [
-          'Athena is a multi-national mobile gaming company which is creating and delivering products to users worldwide. Millions of users are enjoying our casual games every day. It creates a huge opportunity for us to grow but also creates great challenges to overcome and serve more and more users.',
+          'Athena is a multi-national mobile gaming company which is creating and delivering Sản phẩms to users worldwide. Millions of users are enjoying our casual games every day. It creates a huge opportunity for us to grow but also creates great challenges to overcome and serve more and more users.',
         ],
       },
       {
         content: [
-          'Every day at Athena, we try to apply science and art into our products to make them beautiful, exciting, fun and useful. Our mission is to create 5-star products which entertain and enrich people’s life. We believe that when technology, art, and hard working come together, the masterpieces will be born.',
+          'Every day at Athena, we try to apply science and art into our Sản phẩms to make them beautiful, exciting, fun and useful. Our mission is to create 5-star Sản phẩms which entertain and enrich people’s life. We believe that when technology, art, and hard working come together, the masterpieces will be born.',
         ],
       },
       {
@@ -761,11 +761,11 @@ export const companyList = [
       ratio: 100,
       overallScore: 4.8,
       detail: [
-        { title: 'Salary & benefits', score: 2.0 },
-        { title: 'Training & learning', score: 2.5 },
-        { title: 'Management cares about me', score: 4.6 },
-        { title: 'Culture & fun', score: 4.9 },
-        { title: 'Office & workspace', score: 4.6 },
+        { title: 'Lương và phúc lợi', score: 2.0 },
+        { title: 'Đào tạo & học tập', score: 2.5 },
+        { title: 'Ban quản lý quan tâm đến tôi', score: 4.6 },
+        { title: 'Văn hóa & vui chơi', score: 4.9 },
+        { title: 'Văn phòng & không gian làm việc', score: 4.6 },
       ],
     },
     review: [

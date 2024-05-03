@@ -31,7 +31,7 @@ function AppliedJobs() {
         <div className={cx('container')}>
           {currentUser.appliedJobs?.length > 0 ? (
             <div className={cx('content')}>
-              <h1 className={cx('title')}>You have {currentUser.appliedJobs.length} Applied Jobs</h1>
+              <h1 className={cx('title')}>Bạn có {currentUser.appliedJobs.length} Việc làm ứng tuyển</h1>
               {currentUser.appliedJobs.map((jobID, index) => (
                 <JobItem key={index} data={jobList.find((job) => job.id === jobID)} />
               ))}

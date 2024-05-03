@@ -44,7 +44,7 @@ function Jobs({ currentCompany = {}, setType }) {
         {/* company job list */}
         {currentJobList?.length > 0 && (
           <div className={cx('content-left_item')}>
-            <h3 className={cx('content-title')}>{currentCompany.name} Jobs</h3>
+            <h3 className={cx('content-title')}>Việc làm {currentCompany.name} đang tuyển dụng</h3>
             {currentJobList.length > 0 && currentJobList.map((job, index) => <JobItem key={index} data={job} />)}
           </div>
         )}
@@ -53,7 +53,7 @@ function Jobs({ currentCompany = {}, setType }) {
         <div className={cx('content-left_item')}>
           {currentCompany.overview && (
             <>
-              <h3 className={cx('content-title')}>Overview about {currentCompany.name}</h3>
+              <h3 className={cx('content-title')}>Tổng quan về {currentCompany.name}</h3>
               {currentCompany.overview?.map((item, index) => (
                 <div key={index}>
                   <h4 className={cx('content-subtitle')}>{item.subTitle}</h4>
@@ -67,7 +67,7 @@ function Jobs({ currentCompany = {}, setType }) {
 
           {currentCompany.skills && (
             <>
-              <h3 className={cx('content-title')}>{currentCompany.skills?.title || 'Latest Technology We Trust'}</h3>
+              <h3 className={cx('content-title')}>{currentCompany.skills?.title || 'Công nghệ mới nhất mà chúng tôi tin tưởng'}</h3>
               <div className={cx('skill-list')}>
                 {currentCompany.skills.list?.map((skill, index) => (
                   <Button key={index} basic onClick={() => handleSearchJobs(skill)}>
@@ -89,7 +89,7 @@ function Jobs({ currentCompany = {}, setType }) {
         {/* company benefits */}
         {currentCompany.benefit && (
           <div className={cx('content-left_item')}>
-            <h3 className={cx('content-title')}>Why You'll Love Working Here</h3>
+            <h3 className={cx('content-title')}>Tại sao bạn sẽ yêu thích làm việc tại đây?</h3>
             <div className={cx('list-item', 'benefit')}>
               {currentCompany.benefit.hightlight?.map((item, index) => (
                 <div key={index}>
@@ -117,11 +117,11 @@ function Jobs({ currentCompany = {}, setType }) {
       {!currentCompany.review || currentCompany.review.length === 0 ? (
         <div>
           <div className={cx('content-right_item')}>
-            <h3 className={cx('content-title')}>Let your voice be heard.</h3>
+            <h3 className={cx('content-title')}>Hãy để tiếng nói của mình được lắng nghe.</h3>
             <div>
-              <p className={cx('review-title')}>Review {currentCompany.name} now</p>
+              <p className={cx('review-title')}>Đánh giá {currentCompany.name} ngay bây giờ</p>
               <Button primary xl onClick={handleDelay}>
-                Write review
+                Viết đánh giá
               </Button>
             </div>
           </div>
@@ -129,7 +129,7 @@ function Jobs({ currentCompany = {}, setType }) {
       ) : currentCompany.review.length < 4 ? (
         <div>
           <div className={cx('content-right_item')}>
-            <h3 className={cx('content-title')}>Top Reviews</h3>
+            <h3 className={cx('content-title')}>Đánh giá hàng đầu</h3>
             {currentCompany.review?.map((review, index) => (
               <div key={index} className={cx('review-content')}>
                 <p className={cx('review-title')}>{review.title}</p>
@@ -138,21 +138,21 @@ function Jobs({ currentCompany = {}, setType }) {
               </div>
             ))}
             <Button primary xl onClick={handleDelay}>
-              Write review
+              Viết đánh giá
             </Button>
           </div>
         </div>
       ) : (
         <div>
           <div className={cx('content-right_item')}>
-            <h3 className={cx('content-title')}>Overall Rating</h3>
+            <h3 className={cx('content-title')}>Đánh giá tổng thể</h3>
             <div className={cx('overall-rating')}>
               <Rate big score={currentCompany.recommendation.overallScore} background />
               <span className={cx('overall-score')}>{currentCompany.recommendation.overallScore}</span>
             </div>
             <div className={cx('rating-overall')}>
               <div className={cx('rating-ratio')}>{currentCompany.recommendation.ratio}%</div>
-              <div className={cx('rating-comment')}>Recommend working here to a friend</div>
+              <div className={cx('rating-comment')}>Giới thiệu làm việc ở đây cho bạn bè</div>
             </div>
             <div className={cx('rating-detail')}>
               {currentCompany.recommendation.detail?.map((item, index) => (
@@ -167,13 +167,13 @@ function Jobs({ currentCompany = {}, setType }) {
             </div>
             <div>
               <Button primary xl onClick={handleSetType}>
-                See all ratings and reviews
+                Xem tất cả xếp hạng và đánh giá
               </Button>
             </div>
           </div>
 
           <div className={cx('content-right_item')}>
-            <h3 className={cx('content-title')}>Top Reviews</h3>
+            <h3 className={cx('content-title')}>Đánh giá hàng đầu</h3>
             {currentCompany.review?.slice(0, 3).map((review, index) => (
               <div key={index} className={cx('review-content')}>
                 <p className={cx('review-title')}>{review.title}</p>
@@ -182,7 +182,7 @@ function Jobs({ currentCompany = {}, setType }) {
               </div>
             ))}
             <Button primary xl onClick={handleDelay}>
-              Write review
+              Viết đánh giá
             </Button>
           </div>
         </div>
