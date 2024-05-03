@@ -21,11 +21,11 @@ function JobOverview({ job = {} }) {
   const { postedTime, id, skills, salaryMin, salaryMax, address, mapLink, type } = job;
 
   const jobPostedDay = Math.floor(postedTime / 1000 / 60 / 60 / 24);
-  const dayUnit = jobPostedDay > 1 ? 'days' : 'day';
+  const dayUnit = jobPostedDay > 1 ? 'ngày' : 'ngày';
   const jobPostedHour = Math.floor((postedTime / 1000 / 60 / 60) % 24);
-  const hourUnit = jobPostedHour > 1 ? 'hours' : 'hour';
+  const hourUnit = jobPostedHour > 1 ? 'giờ' : 'giờ';
   const jobPostedMinute = Math.ceil((postedTime / 1000 / 60) % 60);
-  const minuteUnit = jobPostedMinute > 1 ? 'minutes' : 'minute';
+  const minuteUnit = jobPostedMinute > 1 ? 'phút' : 'phút';
 
   const handleSearchJobs = useCallback((skill) => {
     // reset searchTextError
@@ -71,10 +71,10 @@ function JobOverview({ job = {} }) {
 
         <CharacteristicItem className={cx({ newPost: !jobPostedDay })} icon={<FontAwesomeIcon icon={faCalendarDays} />}>
           {jobPostedDay > 0
-            ? `${jobPostedDay} ${dayUnit} ago`
+            ? `${jobPostedDay} ${dayUnit} trước`
             : jobPostedHour > 0
-            ? `${jobPostedHour} ${hourUnit} ago`
-            : `${jobPostedMinute} ${minuteUnit} ago`}
+            ? `${jobPostedHour} ${hourUnit} trước`
+            : `${jobPostedMinute} ${minuteUnit} trước`}
         </CharacteristicItem>
       </div>
     );

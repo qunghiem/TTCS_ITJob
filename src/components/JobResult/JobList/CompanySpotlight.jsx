@@ -87,7 +87,7 @@ function CompanySpotlight({ className, topCompanyList = [], jobList = [] }) {
             )}
             className={cx('job-item', 'view-all')}
           >
-            {`View ${topCompanyJobList.length} jobs`}{' '}
+            {`Xem ${topCompanyJobList.length} Việc làm`}{' '}
             <i>
               <FontAwesomeIcon icon={faCaretRight} />
             </i>
