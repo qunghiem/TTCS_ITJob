@@ -108,7 +108,13 @@
   }
 }
 
-// responsive
+// responsive 
+@media screen and (max-width: 1350px) {
+  .container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .container {
     width: 100%;
