@@ -1,7 +1,8 @@
 .wrapper {
   width: 100%;
-  background-color: var(--dark);
+  // background-color: var(--dark);
   padding-top: var(--header-height);
+  background: var(--bg-head);
 }
 
 .content {
