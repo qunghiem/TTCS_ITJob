@@ -89,7 +89,7 @@ function Header({ search = false }) {
       <div className={cx('container')}>
         <div className={cx('logo', { shrink: headerShrink })}>
           <Link to={config.routes.home}>
-            <img src={images.logo} alt="logo_img" />
+            <img src={"https://i.imgur.com/gyizo98.png"} alt="logo_img" />
           </Link>
         </div>
 
