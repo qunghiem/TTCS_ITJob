@@ -11,7 +11,7 @@ function Path({ items = [] }) {
   return (
     <div className={cx('wrapper')}>
       {items.map((item, index) => (
-        <PathItem key={index}>{item}</PathItem>
+        <PathItem key={index}>{item}</PathItem>   
       ))}
     </div>
   );
