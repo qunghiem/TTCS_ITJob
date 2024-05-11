@@ -79,7 +79,7 @@ export const filteredJobListSelector = createSelector(
         (job.title.toLowerCase().includes(searchText.toLowerCase()) ||
           job.skills.map((skill) => skill.toLowerCase()).includes(searchText.toLowerCase())) &&
         //filter by location
-        (location !== 'All Cities' ? job.location === location : true) &&
+        (location !== 'Tất cả thành phố' ? job.location === location : true) &&
         //filter by levels
         (levels.length ? levels.map((level) => level.toLowerCase()).includes(job.jobLevel.toLowerCase()) : true) &&
         //filter by salaryRanges

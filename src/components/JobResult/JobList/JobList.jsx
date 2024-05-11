@@ -65,8 +65,8 @@ function JobList({ jobList: passedJobList }) {
         </>
       );
     } else {
-      title = `${passedJobList.length} ${searchText ? searchText : 'IT'} jobs in ${
-        location === 'All Cities' ? 'Viet Nam' : location
+      title = `${passedJobList.length} việc làm ${searchText ? searchText : 'IT'} ở ${
+        location === 'Tất cả thành phố' ? 'Việt Nam' : location
       }`;
     }
   }

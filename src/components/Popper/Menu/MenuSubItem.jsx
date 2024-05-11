@@ -25,7 +25,7 @@ function MenuSubItem({ children, className, search, searchBy }) {
       switch (searchBy) {
         case 'company':
           dispatch(filtersSlice.actions.searchFilterChange(''));
-          dispatch(filtersSlice.actions.locationFilterChange('All Cities'));
+          dispatch(filtersSlice.actions.locationFilterChange('Tất cả thành phố'));
           break;
         case 'location':
           dispatch(filtersSlice.actions.searchFilterChange(''));
@@ -33,7 +33,7 @@ function MenuSubItem({ children, className, search, searchBy }) {
           break;
         default:
           dispatch(filtersSlice.actions.searchFilterChange(children));
-          dispatch(filtersSlice.actions.locationFilterChange('All Cities'));
+          dispatch(filtersSlice.actions.locationFilterChange('Tất cả thành phố'));
           break;
       }
 

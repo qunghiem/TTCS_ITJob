@@ -33,7 +33,7 @@ function JobOverview({ job = {} }) {
 
     // set value for searchText & location
     dispatch(filtersSlice.actions.searchFilterChange(skill));
-    dispatch(filtersSlice.actions.locationFilterChange('All Cities'));
+    dispatch(filtersSlice.actions.locationFilterChange('Tất cả thành phố'));
 
     // navigate to job page and reset filters
     navigate(config.routes.jobs);

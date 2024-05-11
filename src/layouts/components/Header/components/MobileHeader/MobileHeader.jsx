@@ -97,7 +97,7 @@ function MobileHeader() {
 
   const handleReload = () => {
     dispatch(filtersSlice.actions.searchFilterChange(''));
-    dispatch(filtersSlice.actions.locationFilterChange('All Cities'));
+    dispatch(filtersSlice.actions.locationFilterChange('Tất cả thành phố'));
     window.location.pathname === config.routes.jobs && window.location.reload(false);
   };
 

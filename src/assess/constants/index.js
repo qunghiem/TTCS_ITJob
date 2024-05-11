@@ -1,7 +1,7 @@
 import config from '~/config';
 
 // header
-const CITIES = ['Tất cả thành phố', 'Ho Chi Minh', 'Ha Noi', 'Da Nang','Others'];
+const CITIES = ['Tất cả thành phố', 'Ho Chi Minh', 'Ha Noi', 'Da Nang','Khác'];
 
 const JOBS = [
   {
