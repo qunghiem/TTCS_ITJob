@@ -137,8 +137,8 @@ function Job() {
 
       <Path
         items={[
-          { title: 'Home', to: config.routes.home },
-          { title: 'All IT Jobs', to: config.routes.jobs },
+          { title: 'Trang chủ', to: config.routes.home },
+          { title: 'Tất cả việc làm IT', to: config.routes.jobs },
           { title: currentJob.title },
         ]}
       />

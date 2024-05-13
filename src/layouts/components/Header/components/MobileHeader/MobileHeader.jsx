@@ -128,7 +128,7 @@ function MobileHeader() {
                 <span className={cx('left-icon', 'sign-in')}>
                   <FontAwesomeIcon icon={faCircleUser} />
                 </span>
-                <span>Sign in</span>
+                <span>Đăng nhập</span>
               </Link>
             ))}
 

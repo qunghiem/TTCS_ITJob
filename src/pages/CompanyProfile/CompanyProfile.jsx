@@ -173,7 +173,7 @@ function CompanyProfile() {
             )}
           </div>
 
-          <Path items={[{ title: 'Home', to: config.routes.home }, { title: currentCompany.name }]} />
+          <Path items={[{ title: 'Trang chủ', to: config.routes.home }, { title: currentCompany.name }]} />
         </div>
       </div>
     );
