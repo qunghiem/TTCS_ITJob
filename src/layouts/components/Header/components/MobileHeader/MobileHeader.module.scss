@@ -39,14 +39,19 @@
   align-items: center;
   cursor: pointer;
 }
-
+.user-account .sign-in-a {
+  color: white;
+}
 .avatar_img {
   background-color: #7b1fa2;
   padding: 5px 12px;
   border-radius: 50%;
   margin-right: 10px;
+  color: white;
 }
-
+.full_name, .next-icon {
+  color: white;
+}
 .next-icon,
 .left-icon {
   height: 30px;
@@ -62,7 +67,9 @@
 
   &.sign-in {
     font-size: 2.8rem;
+    color: white;
   }
+
 }
 
 .menu-header {
@@ -78,7 +85,9 @@
 
   cursor: pointer;
 }
-
+.menu-header span {
+  color: white;
+}
 .menu-subitem {
   color: var(--white);
   padding-left: 32px;

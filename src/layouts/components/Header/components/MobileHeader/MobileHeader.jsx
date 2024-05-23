@@ -115,7 +115,7 @@ function MobileHeader() {
             (currentUser ? (
               <div className={cx('user-account')}>
                 <span className={cx('avatar_img')}>{currentUser.fullname.slice(0, 1)}</span>
-                <span>{currentUser.fullname}</span>
+                <span className={cx('full_name')}>{currentUser.fullname}</span>
                 <span
                   className={cx('next-icon')}
                   onClick={() => setHistory((prev) => [...prev, { title: currentUser.fullname, data: userLinks }])}
@@ -128,7 +128,7 @@ function MobileHeader() {
                 <span className={cx('left-icon', 'sign-in')}>
                   <FontAwesomeIcon icon={faCircleUser} />
                 </span>
-                <span>Đăng nhập</span>
+                <span className={cx('sign-in-a')}>Đăng nhập</span>
               </Link>
             ))}
 
