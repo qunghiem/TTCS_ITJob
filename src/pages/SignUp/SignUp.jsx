@@ -75,7 +75,7 @@ function SignUp() {
           <div className={cx('user-authentication')}>
             <h3 className={cx('header')}>
               <span>Chào mừng bạn đến với</span>
-              <Image src={images.logo_dark} alt="logo_img" />
+              <Image src={"https://i.imgur.com/gyizo98.png"} alt="logo_img" />
             </h3>
 
             <div className={cx('content')}>
